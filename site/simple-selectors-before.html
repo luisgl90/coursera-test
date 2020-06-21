@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en"> <!--Lang is necessary-->
+<head> <!-- //Describes the main content of the page -->
+	<meta charset="utf-8">
+	<title>Simple selectors</title>
+
+	<style>
+		/* all h2 elements */
+		h2{
+			color: red;
+			text-align: center;
+		}
+
+		/* all with class="highlight" */
+		.highlight{
+			font-size: 20px;
+			font-weight: bold;
+			font-style: italic;
+			background-color: green;
+			opacity: .6;
+		}
+
+		/* element with id="mainPoint" */
+		#mainPoint{
+			font-size: 24px;
+			font-weight: bold;
+			background-color: red;
+			opacity: .7;
+		}
+
+		/* all p AND h1 elements */
+		p,h1{
+			color: blue;
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body> <!-- The root of all the content that is visible to the user-->
+	
+	<h1>Simple selectors</h1>
+	
+	<h2>Subheading 1</h2>
+	<p class="highlight">CSS works by associating rules with HTML elements. These rules govern how the content of specified elements should be displayed. A CSS rule contains two parts: a selector and a declaration.</p>
+	<p class="highlight">Paragraph with attribute class="highlight".</p>
+
+	<h2>Subheading 2</h2>
+	<p>This is a paragraph!</p>
+	<div> This is the maint point of the entire article. So, attribute <span id="mainPoint">id="mainPoint".</span>
+	</div>
+
+</body>
+</html>
