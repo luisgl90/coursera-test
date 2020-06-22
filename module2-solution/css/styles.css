@@ -1,0 +1,65 @@
+*{
+	box-sizing: border-box;
+}
+
+h1{
+	text-align: center;
+}
+
+div > div{
+	
+	position: relative;
+}
+
+div.contain{
+	border: 2px black solid;
+	padding: 10px 10px 10px 10px;
+	background-color: gray;
+}
+
+div.container{
+	padding: 10px 10px 10px 10px;
+}
+
+p{
+	margin: 0px 0px 0px 0px;
+	border: 1px black solid;
+	width: 120px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	font-family: Helvetica;
+}
+
+section{
+	margin-top: 15px;
+	padding: 15px;
+	clear: both;
+}
+
+.row{
+	width: 100%;
+}
+
+@media (min-width: 992px){
+	.col-md-4{
+		float: left;
+		width: 33.33%
+	}
+} 
+
+@media (min-width: 768px) and (max-width: 991px){
+	.col-sm-6{
+		float: left;
+		width: 50%
+	}	
+}
+
+@media (max-width: 767px){
+	.col-12{
+		float: left;
+		width: 100%
+	}
+}
+
