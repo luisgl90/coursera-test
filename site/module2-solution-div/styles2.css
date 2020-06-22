@@ -11,6 +11,19 @@ h1{
 	width: 100%;
 }
 
+div > div{
+	position: relative;
+}
+
+div.contain{
+	border: 2px black solid;
+	padding: 10px 10px 10px 10px;
+	background-color: #B2B2B2;
+}
+
+div.container{
+	padding: 10px 10px 10px 10px;
+}
 
 p{
 	font-weight: bold;
@@ -24,10 +37,9 @@ p{
 }
 
 section{
-	background-color: #B2B2B2;
 	position: relative;
 	margin: 10px;
-	padding: 30px 20px 20px 20px;
+	padding: 20px;
 	clear: right;
 	border: 1px black solid;
 }
