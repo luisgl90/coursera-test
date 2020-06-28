@@ -1,0 +1,151 @@
+body{
+	font-size: 16px;
+	color: #000;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.section-title
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.navbar-brand h1, h1.text-center{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#header-nav{
+	background-color: #73B0AF;
+	border-radius: 0;
+	border: 0;
+	border: 2px solid #000;
+}
+
+.navbar-brand{
+	padding-top: 10px;
+}
+
+.navbar-brand h1{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: #000;
+	margin-top: 0;
+	margin-bottom: 0;
+	vertical-align: middle;
+	/*line-height: .75;*/
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none; /* Removes underline */
+}
+
+.navbar-brand p{
+	color: #000;
+	text-transform: uppercase;
+	font-size: .7em;
+	margin-top: 15px;
+}
+
+.navbar-brand p span {
+	vertical-align: middle;
+}
+
+#nav-list {
+	margin-top: 0px;
+	padding: 0;
+
+}
+#nav-list a {
+	background: #C2DCC0;
+	color: #000;
+	text-align: center;
+	padding: 0;
+	border-top: 1px solid #000;
+	margin-top: -1px;
+	padding-top: 10px;
+	height: 2em;
+	font-weight: bold;
+}
+#nav-list a:hover {
+	background: #91ACB1;
+}
+#nav-list a span {
+	font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #000;
+}
+.navbar-header button.navbar-toggle {
+  /*clear: both;
+  margin-top: -30px;*/
+}
+
+.navbar{
+	border-color: #000;
+}
+/* END OF HEADER */
+
+
+
+/* Large devices only */
+@media (min-width: 1200px){
+	
+}
+
+/* Medium devices only */
+@media (min-width: 992px) and (max-width: 1199px){
+	
+}
+
+/* Small devices only */
+@media (min-width: 768px) and (max-width: 991px){
+	
+}
+
+/* Extra small devices only */
+@media (max-width: 767px){
+	/* Header */
+	.navbar-brand{
+		/*padding-top: 15px;
+		height: 80px;*/
+		vertical-align: middle;
+	}
+
+
+	button .navbar-toogle{
+		margin-top: 15px;
+	}
+
+	#collapsable-nav a{
+		font-size: 1.2em; 
+	}
+
+  	/* END HEADER */
+
+}
+
+
+/* Super extra small devices only */
+@media (max-width: 479px){
+
+	.navbar-brand h1{
+		/*padding-top: 5px;
+		font-size: 6vw;*/
+	}
+
+	#menu-tile, #specials-tile {
+	    width: 280px;
+	    margin: 0 auto 15px;
+	}
+
+	.col-xxs-12{ /* Defines super extra small class*/
+		position: relative;
+		min-height: 1px;
+		padding-right: 15px;
+		padding-left: 15px;
+		float: left;
+		width: 100%;
+	}
+}
+
