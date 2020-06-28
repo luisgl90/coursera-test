@@ -5,7 +5,7 @@ body{
 	margin: 0;
 }
 
-.navbar-brand h1, h1.text-center{
+.navbar-brand h1, h2.text-center{
 	font-size: 25px;
 	font-weight: bold;
 }
