@@ -2,7 +2,12 @@ body{
 	font-size: 16px;
 	color: #000;
 	font-family: "Comic Sans MS", cursive, sans-serif;
-	margin: 0;
+}
+
+.section-title
+{
+	font-size: 20px;
+	font-weight: bold;
 }
 
 .navbar-brand h1, h1.text-center{
@@ -81,53 +86,29 @@ body{
 }
 /* END OF HEADER */
 
-.container h3{
-	font-size: 20px;
-	font-weight: bold;
-	margin-top: 0px;
-}
 
-.container section{
-	background-color: #B2B2B2;
-	position: relative;
-	margin: 10px;
-	padding: 20px 20px 20px 20px;
-	clear: right;
-	border: 1px black solid;
-}
 
-.container section>span>a{
-	text-decoration: underline;
-
+/* Large devices only */
+@media (min-width: 1200px){
+	
 }
 
 /* Medium devices only */
-@media (min-width: 992px){
-	.col-md-4{
-		width: calc(33.33% - 20px);
-	}
+@media (min-width: 992px) and (max-width: 1199px){
+	
 }
 
 /* Small devices only */
 @media (min-width: 768px) and (max-width: 991px){
-	.col-sm-6{
-		width: calc(50% - 20px);
-	}
-
-	.col-sm-12{
-		width: calc(100% - 20px);
-	}
+	
 }
 
 /* Extra small devices only */
 @media (max-width: 767px){
-	
-	.col-12{
-		width: calc(100% - 20px);
-	}
-
 	/* Header */
 	.navbar-brand{
+		/*padding-top: 15px;
+		height: 80px;*/
 		vertical-align: middle;
 	}
 
